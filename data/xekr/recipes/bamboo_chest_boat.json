@@ -4,7 +4,7 @@
   "group": "chest_boat",
   "key": {
     "X": {
-      "item": "minecraft:bamboo_planks"
+      "item": "bamboo_raft"
     },
     "K": {
       "item": "minecraft:chest"
@@ -15,7 +15,7 @@
     "XXX"
   ],
   "result": {
-    "item": "minecraft:bamboo_chest_boat"
+    "item": "minecraft:bamboo_chest_raft"
   },
   "show_notification": true
 }
