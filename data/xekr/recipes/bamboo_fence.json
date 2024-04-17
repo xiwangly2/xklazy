@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "X": {
+      "tag": "minecraft:bamboo_blocks"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:bamboo_fence"
+  },
+  "show_notification": true
+}

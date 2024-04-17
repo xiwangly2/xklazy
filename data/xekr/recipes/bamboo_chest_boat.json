@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest_boat",
+  "key": {
+    "X": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "K": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "XKX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:bamboo_chest_boat"
+  },
+  "show_notification": true
+}

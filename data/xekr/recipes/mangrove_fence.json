@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "X": {
+      "tag": "minecraft:mangrove_logs"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "count": 12,
+    "item": "minecraft:mangrove_fence"
+  },
+  "show_notification": true
+}

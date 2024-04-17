@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "composter",
+  "key": {
+    "X": {
+      "tag": "minecraft:bamboo_blocks"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:composter"
+  },
+  "show_notification": true
+}
