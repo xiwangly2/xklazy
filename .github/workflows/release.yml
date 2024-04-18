@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload Release Asset
         id: upload-release-asset
-        uses: actions/upload-artifact@v4
+        uses: softprops/action-gh-release@v1
         with:
-          name: xklazy-${{ github.ref_name }}.zip
-          path: xklazy-${{ github.ref_name }}.zip
+          files: xklazy-${{ github.ref_name }}.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
