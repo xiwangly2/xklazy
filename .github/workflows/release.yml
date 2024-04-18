@@ -24,16 +24,18 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: elgohr/Github-Release-Action@v5
+        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: ${{ github.ref }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
 
       - name: Upload Release Asset
         id: upload-release-asset
-        uses: actions/release-action@v1
+        uses: actions/upload-artifact@v4
         with:
-          files: |
-            xklazy-${{ github.event.release.tag_name }}.zip
-          api_key: ${{ secrets.GITHUB_TOKEN }}
+          name: xklazy-${{ github.ref }}.zip
+          path: xklazy-${{ github.ref }}.zip
