@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:minecart"
+  }
+}
